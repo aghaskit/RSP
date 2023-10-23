@@ -1,0 +1,72 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #CAD2C5;
+}
+
+.buttons-wrapper{
+    display: flex;
+}
+
+.buttons{
+    display: inline-flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 15px;
+    font-size: 22px;
+    border: 5px solid rgb(113, 180, 94) ;
+    padding: 15px 25px ;
+
+}
+
+.buttons__btn{
+  color: #fff;
+  background-color: rgb(49, 89, 38);
+  padding: 10px 15px;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.5s;
+}
+
+/* .buttons__btn::before{
+    content:'';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(49, 89, 38);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    transform: scale(0);
+    transition: all 0.3s ;
+}
+
+
+.buttons__btn:hover::before{
+    transform: scale(1);
+} */
+
+.buttons__btn:hover{
+    background-color: #68b33a;
+    color:#CAD2C5 ;
+}
+
+.choices{
+    display: flex;
+    justify-content: space-around;
+    padding-top:50px ;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.game__result h2{
+    font-family: 'Martian Mono', monospace;
+}
+
+/* CAD2C5
+84A98C
+52796F
+354F52
+2F3E46 */
